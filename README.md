@@ -4,7 +4,7 @@ A deep learning project for classifying Alzheimer's disease stages from brain MR
 
 ## Overview
 
-This project uses transfer learning with pre-trained models to classify MRI brain scans into 4 categories:
+This project uses transfer learning with pre-trained models to classify MRI brain scans into 4 categories (In Sample Dataset, each class has 100 images):
 - **MildDemented**
 - **ModerateDemented**  
 - **NonDemented**
@@ -42,7 +42,7 @@ This option trains the models from scratch using Google Colab.
 ├── demo.ipynb          # Quick demo with pre-trained weights
 ├── project.ipynb       # Full training notebook
 ├── requirements.txt    # Python dependencies
-├── sampledata/         # Dataset directory
+├── sampledata/         # Dataset directory 
 │   ├── OriginalDataset/
 ├── vit-best/           # Pre-trained ViT weights
 └── effnet-best/        # Pre-trained EfficientNet weights
