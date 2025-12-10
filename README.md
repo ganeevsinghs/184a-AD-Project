@@ -44,7 +44,6 @@ This option trains the models from scratch using Google Colab.
 ├── requirements.txt    # Python dependencies
 ├── sampledata/         # Dataset directory
 │   ├── OriginalDataset/
-│   └── AugmentedAlzheimerDataset/
 ├── vit-best/           # Pre-trained ViT weights
 └── effnet-best/        # Pre-trained EfficientNet weights
 ```
